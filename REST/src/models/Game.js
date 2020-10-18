@@ -6,4 +6,4 @@ const gameSchema = mongoose.Schema({
     category:String
 })
 
-module.exports = mongoose.model('Posts', gameSchema);
+module.exports = mongoose.model('Games', gameSchema);

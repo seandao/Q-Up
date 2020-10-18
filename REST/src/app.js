@@ -8,13 +8,13 @@ app.use(bodyParser.json());
 
 //routers
 const usersRoute = require('./routes/users');
+const partiesRoute = require('./routes/parties');
+const gamesRoute = require('./routes/games');
 
 //middlewares
 app.use('/users', usersRoute);
-
-app.get('/', (req,res) => {
-    res.send('We are on homepage');
-});
+app.use('/parties', partiesRoute);
+app.use('/games', gamesRoute);
 
 //connect to the database
 mongoose.connect(
