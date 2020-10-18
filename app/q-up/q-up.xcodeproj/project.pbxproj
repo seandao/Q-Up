@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BDDAAA253BC31B0066451E /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDDAA9253BC31B0066451E /* FindFriendsViewController.swift */; };
 		40C291EE253BBB8E003E17A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C291ED253BBB8E003E17A7 /* AppDelegate.swift */; };
 		40C291F0253BBB8E003E17A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C291EF253BBB8E003E17A7 /* SceneDelegate.swift */; };
-		40C291F2253BBB8E003E17A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C291F1253BBB8E003E17A7 /* ViewController.swift */; };
+		40C291F2253BBB8E003E17A7 /* PartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C291F1253BBB8E003E17A7 /* PartyViewController.swift */; };
 		40C291F5253BBB8E003E17A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C291F3253BBB8E003E17A7 /* Main.storyboard */; };
 		40C291F8253BBB8E003E17A7 /* q_up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40C291F6253BBB8E003E17A7 /* q_up.xcdatamodeld */; };
 		40C291FA253BBB91003E17A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C291F9253BBB91003E17A7 /* Assets.xcassets */; };
 		40C291FD253BBB91003E17A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C291FB253BBB91003E17A7 /* LaunchScreen.storyboard */; };
 		40C29208253BBB91003E17A7 /* q_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29207253BBB91003E17A7 /* q_upTests.swift */; };
 		40C29213253BBB91003E17A7 /* q_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29212253BBB91003E17A7 /* q_upUITests.swift */; };
+		40C2922A253BC0D8003E17A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C29229253BC0D8003E17A7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40BDDAA9253BC31B0066451E /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		40C291EA253BBB8E003E17A7 /* q-up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "q-up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C291ED253BBB8E003E17A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40C291EF253BBB8E003E17A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40C291F1253BBB8E003E17A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40C291F1253BBB8E003E17A7 /* PartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewController.swift; sourceTree = "<group>"; };
 		40C291F4253BBB8E003E17A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40C291F7253BBB8E003E17A7 /* q_up.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = q_up.xcdatamodel; sourceTree = "<group>"; };
 		40C291F9253BBB91003E17A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		40C2920E253BBB91003E17A7 /* q-upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "q-upUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C29212253BBB91003E17A7 /* q_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = q_upUITests.swift; sourceTree = "<group>"; };
 		40C29214253BBB91003E17A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C29229253BC0D8003E17A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +107,12 @@
 			children = (
 				40C291ED253BBB8E003E17A7 /* AppDelegate.swift */,
 				40C291EF253BBB8E003E17A7 /* SceneDelegate.swift */,
-				40C291F1253BBB8E003E17A7 /* ViewController.swift */,
+				40C291F1253BBB8E003E17A7 /* PartyViewController.swift */,
 				40C291F3253BBB8E003E17A7 /* Main.storyboard */,
+				40BDDAA9253BC31B0066451E /* FindFriendsViewController.swift */,
 				40C291F9253BBB91003E17A7 /* Assets.xcassets */,
 				40C291FB253BBB91003E17A7 /* LaunchScreen.storyboard */,
+				40C29229253BC0D8003E17A7 /* ProfileViewController.swift */,
 				40C291FE253BBB91003E17A7 /* Info.plist */,
 				40C291F6253BBB8E003E17A7 /* q_up.xcdatamodeld */,
 			);
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C291F2253BBB8E003E17A7 /* ViewController.swift in Sources */,
+				40C291F2253BBB8E003E17A7 /* PartyViewController.swift in Sources */,
 				40C291EE253BBB8E003E17A7 /* AppDelegate.swift in Sources */,
+				40BDDAAA253BC31B0066451E /* FindFriendsViewController.swift in Sources */,
 				40C291F8253BBB8E003E17A7 /* q_up.xcdatamodeld in Sources */,
 				40C291F0253BBB8E003E17A7 /* SceneDelegate.swift in Sources */,
+				40C2922A253BC0D8003E17A7 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
